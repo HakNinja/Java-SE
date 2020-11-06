@@ -1,16 +1,15 @@
 import java.util.Scanner;
-class Swap{
+public class Swap{
 public static void main(String [] args){
-    int i,j,temp;
-    Scanner input=new Scanner(System.in);
-    System.out.print("Enter first number: ");
-    i=input.nextInt();
-    System.out.print("Enter second number: ");
-    j=input.nextInt();
-    System.out.println("Before swapping :\n first number = "+i+" and second number="+j);
-    temp=i;
-    i=j;
-    j=temp;
-    System.out.println("After swapping :\n first number = "+i+" and second number="+j);
-    }   
+Scanner i=new Scanner(System.in);
+int x,y,z;
+System.out.println("Enter two value");
+x=i.nextInt();
+y=i.nextInt();
+System.out.println("before swap:\n x= "+x+" y="+y);
+z=x;
+x=y;
+y=z;
+System.out.println("After swap:\n x="+x+" y="+y);
+}
 }

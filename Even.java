@@ -5,8 +5,8 @@ public static void main(String []args){
     Scanner i=new Scanner(System.in);
     int n=i.nextInt();
     if(n%2==0)
-        System.out.println(n+" is a even.");
+        System.out.println("Entered number is a even.");
     else
-        System.out.println(n+" is not a even.");
+        System.out.println("Entered number is not a even.");
     } 
 }
